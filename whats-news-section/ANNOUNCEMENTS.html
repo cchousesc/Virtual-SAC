@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ANNOUNCEMENTS</title>
+	<link rel="stylesheet" href="announcements.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<!-- The navigation menu -->
+<div class="navbar">
+  <a href="../../[0]-homepage-section/homepage.html" style="font-size: 20px; margin-top: 9px; "><strong>HOME</strong></a>
+  <div class="subnav">
+    <button class="subnavbtn"><strong>WHAT'S NEW ? <i class="fa fa-angle-down" aria-hidden="true"></i></strong></button>
+    <div class="subnav-content">
+      <a href="ANNOUNCEMENTS.html">Announcements</a>
+      <a href="../events-tab/events.html">Events</a>
+      <a href="../hotspots-tab/HOTSPOTS.html">Hotspots</a>
+    </div>
+  </div>
+  
+    <a href="#home" style="font-size: 20px; margin-top: 9px; "><strong>GAMES</strong></a>
+
+  <div class="subnav">
+    <button class="subnavbtn"><strong>ACTIVITIES <i class="fa fa-angle-down" aria-hidden="true"></i></strong></button>
+    <div class="subnav-content">
+      <a href="../../[4]-activities-section/art-picks-tab/ART-PICKS.html">Art picks</a>
+      <a href="../../[4]-activities-section/WORKSHOPS_N_ENIRCHMENT-tab/WORKSHOPS_N_ENIRCHMENT.html">Workshops N Enrichments</a>
+      <!-- <a href="#link3">Workshops</a> -->
+      <!-- <a href="#link4">Link 4</a> -->
+    </div>
+  </div>
+  <a href="../../[1]-aboutUs-section/about_us.html" style="font-size: 20px; margin-top: 9px; "><strong>ABOUT US</strong></a>
+</div>
+
+<div id="header">
+  <!-- <a href="index.html"><i class="fas fa-home" style="display: inline-block; color: white; "> </i> </a> -->
+  <h3 style= "font-size: 40px;">ANNOUNCEMENTS</h3>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">1 / 3</div> -->
+    <img id="art-picks" src="announcements-images/vsac-announcements.jpg" style="width: 1020px; height: 514px;">
+  </div>
+
+
+<!-- <div class="cards"> -->
+ 
+
+ <!--  <div class="card-category" >
+
+      3rd April, <br><br>
+
+      Due to the current Covid19 situation, <br>
+      Student Activity Centre at Blk D Level 4,
+      <br>will be closed till further notice.
+  </div>
+ -->
+ <!--  <div class="card-category">
+    House committee and student council <br>
+    would like to officially congratulate everyone
+    <br> for staying strong in making it<br> to phase 3! welcome back!
+  </div> -->
+</div>
+
+
+</body>
+
+<footer>
+<div class="container">
+  <img id="sc-logo" src="../../index-image/SC.png"> 
+  <!-- <p id="footer-top">Proudly brought to you by the Student Council House Team!</p> -->
+  <p class="footer-top">© 2020 ITECC Student Council [House Committee] All Rights Reserved</p>
+</div>
+<!-- THIS FOOTER WILL BE AN EXAMPLE FOR ALL OTHER PAGES EXCEPT DOOR & HOMEPAGE -->
+</footer>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+</script>
+
+
+</html>
