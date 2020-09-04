@@ -56,3 +56,26 @@ body {
   position: relative;
   width: 170px;
 }
+
+@font-face {
+  font-family: lulo_clean_bold;
+  src: url(lulo_clean_bold.ttf);
+}
+
+@font-face {
+  font-family: lulo_clean_outline;
+  src: url(lulo_clean_outline_bold.woff);
+}
+
+@font-face {
+  font-family: futura_light;
+  src: url(futura_light_regular.otf);
+}
+
+/**/
+
+/*paragraph 2 15
+20 font size*/
+
+/*-0.1 character spacing
+1.1 line spacing */
