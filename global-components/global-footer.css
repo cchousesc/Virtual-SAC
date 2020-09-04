@@ -18,3 +18,12 @@ footer {
   left: 0; /* to make it full width */
   height: 70px;
 }
+
+#sc-logo {
+  float: left;  /*  look into position & coordinates */
+  left: 636px; /* ask kenneth for adjustment again */
+  position: relative;   /* allow the image to move */
+  width: 50px;
+  height: 51px;
+  top: -17.5px;
+}
