@@ -1,0 +1,16 @@
+body {
+       font-family: Verdana, sans-serif; 
+       margin:0; /*gives the complete look*/ 
+       background: linear-gradient(rgba(19,25,70, 0.8), rgba(19,25,70, 0.8)), url("../../../index-image/sac-chair.jpg") no-repeat fixed center;
+       background-size: 100%;
+}
+
+/*subheading part of the webpage*/
+#header {
+	border-bottom: 3px solid white;
+	width: 70%;
+	/*text-align: center;*/
+	margin-left: 312px; 
+	margin-top: 133px;
+	margin-right: 2px;
+}

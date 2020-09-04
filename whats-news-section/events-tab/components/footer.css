@@ -1,0 +1,38 @@
+reduce footer height to 70*/
+/* EVENTS FOOTER */
+
+.container {
+	bottom: -13.25px;
+	position: relative;
+	text-align: center; 
+}
+
+
+/*i should make this scss*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #143a4d;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  left: 0; /* to make it full width */
+  height: 70px;
+}
+
+/*i should make this scss*/
+#sc-logo {
+	float: left;  /*  look into position & coordinates */
+	left: 636px; /* ask kenneth for adjustment again */
+	position: relative;   /* allow the image to move */
+	width: 50px;
+	height: 51px;
+	top: -17.5px;
+}
+
+/*#footer-top {
+	background-color: grey;
+	height: 34px;
+	/*look into margin padding*/
+/*}
