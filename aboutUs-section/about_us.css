@@ -1,0 +1,31 @@
+
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('components/footer.css');
+@import url('components/navbar.css');
+@import url('components/background.css');
+
+
+body {
+       font-family: Verdana, sans-serif; 
+       margin:0; /* gives the complete look
+       /*background: linear-gradient(rgba(19,25,70, 0.8), rgba(19,25,70, 0.8)), url("sac-chair.jpg") no-repeat fixed center;*/
+       /*background-size: 100%;*/
+}
+
+/*content*/
+ h3 {
+          font-family: "Emblema One";
+          text-align: center;
+          color: white;
+      }
+
+      p{
+          font-family: "Kodchasan";
+          text-align: center;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 20px;
+          color: white;
+          /*background-color: white;*/
+      }
