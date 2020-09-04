@@ -1,0 +1,58 @@
+html {
+/*this is how i make things responsive*/
+} 
+
+body {
+  /*background: url("Entrance-To-SAC.png") no-repeat fixed center; */
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("index-image/Entrance-To-SAC.png") no-repeat fixed center; 
+  /*opacity: 0.3;*/
+  background-size: 100%;              /*100% 80%; */ /*1350px 1013px*/
+  /*background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("sac-chair.jpg") no-repeat fixed center;*/
+  /*opacity: 0.3;*/
+}
+
+.container {
+  /*margin-bottom: 50px;*/
+  /*top: 400px;*/
+  /*bottom:;*/
+  /*padding-top: 50px;*/
+  position: relative;
+  top: 300px;
+  left: -6px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: #07DBD9;
+  text-align: center;
+  font-family: lulo_clean_bold;
+  line-height: 74px;
+  bottom: -153px;
+  width: 685px;
+  /*try out centering elements & text elements*/
+}
+
+.centered-2 {
+  position: absolute;
+  /*top: 70%;  how i adjust the position of the p tag  */
+  left: 50%;
+  bottom: -223px;
+
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: futura_light;
+}
+
+.btn {
+  background-color: #07DBD9;
+  left: 482px;
+  bottom: -308px;
+  position: relative;
+  width: 170px;
+}
