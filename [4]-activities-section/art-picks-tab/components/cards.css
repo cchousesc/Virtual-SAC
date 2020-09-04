@@ -1,0 +1,109 @@
+.card-container {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 3px solid white;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  margin-left: 455px;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/ 
+  background-color:rgba(19,25,70, 0.8); 
+  width: 1040px;
+  padding: auto 0;
+  height: 233px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.date {
+  position: relative;
+  right: -413px;
+  top: 117px;
+  color: white;
+}
+
+#card-name {
+  position: relative;
+  left: -448px;
+  bottom: 8px;
+  color: white;
+}
+
+#card-image-1 {
+  width: 380px;
+  height: 199px;
+  position: absolute;
+  left: 25%;
+    top: 35%;
+    /*learning points*/
+    /*set the position to absolute but i have no idea why and use top left bottom to move the image around to fit*/
+  border: 4px solid white;
+  /*bug discovered when hovered on nav bar*/
+}
+
+#card-image-2 {
+  width: 380px;
+  height: 199px;
+  position: absolute;
+  left: 25%;
+    top: 35%;
+    /*learning points*/
+    /*set the position to absolute but i have no idea why and use top left bottom to move the image around to fit*/
+  border: 4px solid white;
+}
+
+#card-image-3 {
+  width: 380px;
+  height: 199px;
+  position: absolute;
+  left: 25%;
+    top: 90%;
+    /*learning points*/
+    /*set the position to absolute but i have no idea why and use top left bottom to move the image around to fit*/
+  border: 4px solid black;
+}
+
+#card-image-4 {
+  width: 380px;
+  height: 199px;
+  position: absolute;
+  left: 25%;
+    top: 118%;
+    /*learning points*/
+    /*set the position to absolute but i have no idea why and use top left bottom to move the image around to fit*/
+  border: 4px solid black;
+}
+
+#card-image-5 {
+  width: 380px;
+  height: 199px;
+  position: absolute;
+  left: 25%;
+    top: 145%;
+    /*learning points*/
+    /*set the position to absolute but i have no idea why and use top left bottom to move the image around to fit*/
+  border: 4px solid black;
+}
+
+/*FOR THE BORDER BOTTOM */
+#header {
+  border-bottom: 3px solid white;
+  width: 70%;
+  /*text-align: center;*/
+  margin-left: 312px; 
+  margin-top: 133px;
+  margin-right: 2px;
+}
+
+
+/*NOT IN USE*/
+/*#card-meta-data {*/
+  /*left: -377px;*/
+  /*position: relative;*/
+  /*learning points*/
+  /*when want to make elements move accordingly you set the position to be relative to how you want*/
+  /*it to be and use left top bottom right to move as you desire*/
+/*}*/
