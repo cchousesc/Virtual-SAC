@@ -40,3 +40,48 @@
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  /*display: inline;*/
+  position: absolute;
+  /*position: relative;*/
+  left: 0px;
+  /*text-align: center;*/
+  background-color: #040037;
+  width: 100%;
+  z-index: 1;
+  margin-left: 2px;
+
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  /*margin-right: 10px;
+  margin-left: 10px;*/
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  /*display: block;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  /*background-color: #ff0074;*/
+  color: #d4d0cb;
+  cursor: pointer;
+}
